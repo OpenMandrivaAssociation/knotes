@@ -100,7 +100,7 @@ alarm notifications.
 %{_bindir}/akonadi_notes_agent
 %{_datadir}/akonadi/agents/notesagent.desktop
 %{_docdir}/*/*/akonadi_notes_agent
-%{_kde5_notificationsdir}/akonadi_notes_agent.notifyrc
+%{_datadir}/knotifications5/akonadi_notes_agent.notifyrc
 
 #----------------------------------------------------------------------------
 
