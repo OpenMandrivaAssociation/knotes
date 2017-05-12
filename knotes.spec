@@ -59,7 +59,7 @@ KNotes aims to be a useful and full featured notes application for
 the KDE project. It tries to be as fast and lightweight as possible
 although including some advanced features.
 
-%files -f %{name}.lang
+%files -f all.lang
 %{_kde5_applicationsdir}/org.kde.knotes.desktop
 %{_bindir}/knotes
 %{_datadir}/config.kcfg/knotesglobalconfig.kcfg
@@ -145,5 +145,7 @@ KDE PIM shared library.
 %ninja_install -C build
 
 %find_lang %{name}
-%find_lang %{name}-notes-agent
 %find_lang libnoteshared
+cat *.lang >all.lang
+
+%find_lang akonadi_notes_agent
