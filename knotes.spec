@@ -8,11 +8,11 @@ Group:		Graphical desktop/KDE
 Url:		http://www.kde.org
 Source0:	ftp://ftp.kde.org/pub/kde/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	cmake(ECM)
-BuildRequires:	pkgconfig(Qt5DBus
-BuildRequires:	pkgconfig(Qt5Network
-BuildRequires:	pkgconfig(Qt5PrintSupport
-BuildRequires:	pkgconfig(Qt5Test
-BuildRequires:	pkgconfig(Qt5Widgets
+BuildRequires:	pkgconfig(Qt5DBus)
+BuildRequires:	pkgconfig(Qt5Network)
+BuildRequires:	pkgconfig(Qt5PrintSupport)
+BuildRequires:	pkgconfig(Qt5Test)
+BuildRequires:	pkgconfig(Qt5Widgets)
 BuildRequires:	pkgconfig(Qt5Xml)
 BuildRequires:	pkgconfig(Qt5X11Extras)
 BuildRequires:	cmake(Grantlee5)
