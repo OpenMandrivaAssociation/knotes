@@ -1,6 +1,6 @@
 Summary:	KDE notes application
 Name:		knotes
-Version:	17.04.2
+Version:	17.04.3
 Release:	1
 Epoch:		3
 License:	GPLv2+
