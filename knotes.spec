@@ -1,6 +1,6 @@
 Summary:	KDE notes application
 Name:		knotes
-Version:	17.11.90
+Version:	17.12.1
 Release:	1
 Epoch:		3
 License:	GPLv2+
@@ -8,7 +8,6 @@ Group:		Graphical desktop/KDE
 Url:		http://www.kde.org
 Source0:	http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
 Patch0:		knotes-17.11.90-compile.patch
-Patch1:		knotes-17.11.90-qt-5.10.patch
 BuildRequires:	cmake(ECM)
 BuildRequires:	pkgconfig(Qt5DBus)
 BuildRequires:	pkgconfig(Qt5Network)
