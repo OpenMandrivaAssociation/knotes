@@ -2,7 +2,7 @@
 
 Summary:	KDE notes application
 Name:		knotes
-Version:	19.04.2
+Version:	19.04.3
 Release:	1
 Epoch:		3
 License:	GPLv2+
