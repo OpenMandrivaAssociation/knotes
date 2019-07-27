@@ -2,7 +2,7 @@
 
 Summary:	KDE notes application
 Name:		knotes
-Version:	19.04.3
+Version:	19.07.80
 Release:	1
 Epoch:		3
 License:	GPLv2+
@@ -77,9 +77,9 @@ although including some advanced features.
 %{_kde5_services}/kcmknotessummary.desktop
 %{_kde5_services}/knote_*.desktop
 %{_kde5_services}/kontact/knotesplugin.desktop
-%{_sysconfdir}/xdg/knotes.categories
-%{_sysconfdir}/xdg/knotes.renamecategories
-%{_sysconfdir}/xdg/knotes_printing_theme.knsrc
+%{_datadir}/qlogging-categories5/knotes.categories
+%{_datadir}/qlogging-categories5/knotes.renamecategories
+%{_datadir}/knsrcfiles/knotes_printing_theme.knsrc
 %{_kde5_xmlguidir}/knotes/*.rc
 %{_datadir}/metainfo/org.kde.knotes.appdata.xml
 %{_datadir}/dbus-1/interfaces/org.kde.KNotes.xml
