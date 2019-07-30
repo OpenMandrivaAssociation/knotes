@@ -50,6 +50,7 @@ BuildRequires:	cmake(KF5PimCommonAkonadi)
 BuildRequires:	cmake(KF5PimTextEdit)
 BuildRequires:	cmake(KF5AkonadiSearch)
 BuildRequires:	cmake(KF5KDELibs4Support)
+BuildRequires:	cmake(KF5GrantleeTheme)
 BuildRequires:	xsltproc
 BuildRequires:	boost-devel
 BuildRequires:	sasl-devel
