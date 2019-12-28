@@ -154,6 +154,3 @@ KDE PIM shared library.
 cat *.lang >all.lang
 
 %find_lang akonadi_notes_agent
-
-# FIXME workaround for gdb 8.3.1 hang
-strip --strip-unneeded %{buildroot}%{_bindir}/*
