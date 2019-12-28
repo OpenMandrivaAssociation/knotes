@@ -2,13 +2,13 @@
 
 Summary:	KDE notes application
 Name:		knotes
-Version:	19.11.90
+Version:	19.12.0
 Release:	1
 Epoch:		3
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		http://www.kde.org
-Source0:	http://download.kde.org/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{stable}/release-service/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	cmake(ECM)
 BuildRequires:	pkgconfig(Qt5DBus)
 BuildRequires:	pkgconfig(Qt5Network)
@@ -140,7 +140,7 @@ KDE PIM shared library.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 %cmake_kde5
 
 %build
@@ -154,3 +154,6 @@ KDE PIM shared library.
 cat *.lang >all.lang
 
 %find_lang akonadi_notes_agent
+
+# FIXME workaround for gdb 8.3.1 hang
+strip --strip-unneeded %{buildroot}%{_bindir}/*
