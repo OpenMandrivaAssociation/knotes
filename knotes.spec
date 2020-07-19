@@ -2,7 +2,7 @@
 
 Summary:	KDE notes application
 Name:		knotes
-Version:	20.04.3
+Version:	20.07.80
 Release:	1
 Epoch:		3
 License:	GPLv2+
@@ -87,7 +87,7 @@ although including some advanced features.
 %{_datadir}/dbus-1/interfaces/org.kde.kontact.KNotes.xml
 %{_qt5_plugindir}/kcm_knote.so
 %{_qt5_plugindir}/kcm_knotessummary.so
-%{_qt5_plugindir}/kontact_knotesplugin.so
+%{_qt5_plugindir}/kontact5/kontact_knotesplugin.so
 
 #-----------------------------------------------------------------------------
 
