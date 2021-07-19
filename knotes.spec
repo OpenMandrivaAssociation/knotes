@@ -2,7 +2,7 @@
 
 Summary:	KDE notes application
 Name:		knotes
-Version:	21.04.2
+Version:	21.07.80
 Release:	1
 Epoch:		3
 License:	GPLv2+
@@ -76,7 +76,6 @@ although including some advanced features.
 %{_iconsdir}/hicolor/*/actions/knotes_*.*
 %{_iconsdir}/hicolor/*/apps/knotes.*
 %{_kde5_services}/kcmknotessummary.desktop
-%{_kde5_services}/knote_*.desktop
 %{_kde5_services}/kontact/knotesplugin.desktop
 %{_datadir}/qlogging-categories5/knotes.categories
 %{_datadir}/qlogging-categories5/knotes.renamecategories
@@ -85,9 +84,22 @@ although including some advanced features.
 %{_datadir}/metainfo/org.kde.knotes.appdata.xml
 %{_datadir}/dbus-1/interfaces/org.kde.KNotes.xml
 %{_datadir}/dbus-1/interfaces/org.kde.kontact.KNotes.xml
-%{_qt5_plugindir}/kcm_knote.so
-%{_qt5_plugindir}/kcm_knotessummary.so
 %{_qt5_plugindir}/kontact5/kontact_knotesplugin.so
+%{_qt5_plugindir}/pim/kcms/knotes/kcm_knote_action.so
+%{_qt5_plugindir}/pim/kcms/knotes/kcm_knote_collection.so
+%{_qt5_plugindir}/pim/kcms/knotes/kcm_knote_display.so
+%{_qt5_plugindir}/pim/kcms/knotes/kcm_knote_editor.so
+%{_qt5_plugindir}/pim/kcms/knotes/kcm_knote_misc.so
+%{_qt5_plugindir}/pim/kcms/knotes/kcm_knote_network.so
+%{_qt5_plugindir}/pim/kcms/knotes/kcm_knote_print.so
+%{_qt5_plugindir}/pim/kcms/summary/kcmknotessummary.so
+%{_datadir}/kservices5/kcm_knote_action.desktop
+%{_datadir}/kservices5/kcm_knote_collection.desktop
+%{_datadir}/kservices5/kcm_knote_display.desktop
+%{_datadir}/kservices5/kcm_knote_editor.desktop
+%{_datadir}/kservices5/kcm_knote_misc.desktop
+%{_datadir}/kservices5/kcm_knote_network.desktop
+%{_datadir}/kservices5/kcm_knote_print.desktop
 
 #-----------------------------------------------------------------------------
 
