@@ -2,7 +2,7 @@
 
 Summary:	KDE notes application
 Name:		knotes
-Version:	21.08.1
+Version:	21.08.2
 Release:	1
 Epoch:		3
 License:	GPLv2+
