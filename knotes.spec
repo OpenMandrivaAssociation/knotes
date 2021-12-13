@@ -2,7 +2,7 @@
 
 Summary:	KDE notes application
 Name:		knotes
-Version:	21.08.3
+Version:	21.12.0
 Release:	1
 Epoch:		3
 License:	GPLv2+
@@ -68,10 +68,8 @@ although including some advanced features.
 %{_bindir}/knotes
 %{_datadir}/config.kcfg/knotesglobalconfig.kcfg
 %{_datadir}/config.kcfg/notesagentsettings.kcfg
-%{_datadir}/kconf_update/knotes*
 %dir %{_datadir}/knotes/
 %{_datadir}/knotes/*
-%{_datadir}/kontact/ksettingsdialog/knotes.setdlg
 %{_docdir}/*/*/knotes
 %{_iconsdir}/hicolor/*/actions/knotes_*.*
 %{_iconsdir}/hicolor/*/apps/knotes.*
