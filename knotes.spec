@@ -2,7 +2,7 @@
 
 Summary:	KDE notes application
 Name:		knotes
-Version:	23.04.3
+Version:	23.08.0
 Release:	1
 Epoch:		3
 License:	GPLv2+
@@ -39,18 +39,18 @@ BuildRequires:	cmake(KF5TextWidgets)
 BuildRequires:	cmake(KF5WidgetsAddons)
 BuildRequires:	cmake(KF5WindowSystem)
 BuildRequires:	cmake(KF5XmlGui)
-BuildRequires:	cmake(KF5Akonadi)
-BuildRequires:	cmake(KF5AkonadiNotes)
-BuildRequires:	cmake(KF5AkonadiMime)
-BuildRequires:	cmake(KF5CalendarUtils)
-BuildRequires:	cmake(KF5KontactInterface)
-BuildRequires:	cmake(KF5Libkdepim)
-BuildRequires:	cmake(KF5Mime)
-BuildRequires:	cmake(KF5PimCommonAkonadi)
+BuildRequires:	cmake(KPim5Akonadi)
+BuildRequires:	cmake(KPim5AkonadiNotes)
+BuildRequires:	cmake(KPim5AkonadiMime)
+BuildRequires:	cmake(KPim5CalendarUtils)
+BuildRequires:	cmake(KPim5KontactInterface)
+BuildRequires:	cmake(KPim5Libkdepim)
+BuildRequires:	cmake(KPim5Mime)
+BuildRequires:	cmake(KPim5PimCommon)
 BuildRequires:	cmake(KF5PimTextEdit)
-BuildRequires:	cmake(KF5AkonadiSearch)
+BuildRequires:	cmake(KPim5AkonadiSearch)
 BuildRequires:	cmake(KF5KDELibs4Support)
-BuildRequires:	cmake(KF5GrantleeTheme)
+BuildRequires:	cmake(KPim5GrantleeTheme)
 BuildRequires:	xsltproc
 BuildRequires:	boost-devel
 BuildRequires:	sasl-devel
